@@ -52,7 +52,7 @@ public class XControlPanel extends JPanel {
 		add(startButton);
 		// PAUSE
 		this.pauseButton = new JButton();
-		pauseButton.setIcon(new ImageIcon("src//resources//gui//icons//control-pause.png"));
+		pauseButton.setIcon(new ImageIcon("src\\resources\\gui\\icons\\control-pause.png"));
 		pauseButton.setPreferredSize(new Dimension(25, 25));
 		pauseButton.setEnabled(false);
 		pauseButton.addActionListener(new ActionListener() {
@@ -67,7 +67,7 @@ public class XControlPanel extends JPanel {
 		add(pauseButton);
 		// STOP
 		this.stopButton = new JButton();
-		stopButton.setIcon(new ImageIcon("src//resources//gui//icons//control-stop.png"));
+		stopButton.setIcon(new ImageIcon("src\\resources//gui//icons//control-stop.png"));
 		stopButton.setPreferredSize(new Dimension(25, 25));
 		stopButton.addActionListener(new ActionListener() {
 			@Override

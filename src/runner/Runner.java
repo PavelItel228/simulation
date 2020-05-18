@@ -26,7 +26,7 @@ public class Runner {
 			System.out.println("Enter girl born chance");
 			Woman.setBornChance(scanner.nextInt());
 		}
-		scanner.close()
+		scanner.close();
 		new XMainWindow();
 	}
 
